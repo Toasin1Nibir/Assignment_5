@@ -4,7 +4,7 @@ document.getElementById('search-btn').addEventListener('click',function(){
     const search = document.getElementById('search-input').value
     if (search === '') {
         warning.style.display = 'block';
-        console.log('Please enter valid')
+        console.log('Please enter valid');
     } else {
         document.getElementById('meal_name').innerHTML = ' '
         document.getElementById('meal_detail').innerHTML= ' '
